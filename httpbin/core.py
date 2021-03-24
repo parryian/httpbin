@@ -1208,7 +1208,7 @@ def delay_response(delay):
       200:
         description: A delayed response.
     """
-    delay = min(float(delay), 10)
+    delay = min(float(delay), 20)
 
     time.sleep(delay)
 
